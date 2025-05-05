@@ -24,17 +24,13 @@ A **fast-paced 2D space shooter** built with **C++ and Raylib**, featuring:
 # Clone the repo
 git clone https://github.com/Cyberpunk-San/UFO-UFO.git
 cd UFO-UFO
+cd mission_mangal
 
-# Compile (Linux/macOS)
-g++ main.cpp -o ufo_shooter -lraylib -std=c++17
+# Compile 
+g++ -g -Wall -Wextra main.cpp -o main.exe -IC:\raylib\src -LC:\raylib\src -lraylib -lopengl32 -lgdi32 -lwinmm 
 
 # Run
-./ufo_shooter
-```
-
-**Windows (MinGW):**  
-```sh
-g++ main.cpp -o ufo_shooter.exe -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -std=c++17
+./main.exe
 ```
 
 ---
