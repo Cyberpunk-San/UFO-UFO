@@ -12,6 +12,10 @@ A **fast-paced 2D space shooter** built with **C++ and Raylib**, featuring:
 - 🔊 **Retro sound effects**  
 
 ---
+## **Demo video**
+- (https://drive.google.com/file/d/1v79QTYQ6LJE1-BW4VDwpCIzqaPud9dup/view?usp=drive_link)
+
+---
 
 ## 🔧 **Installation**  
 
